@@ -3,7 +3,7 @@
   "displayName": "CMake Preset Indicator",
   "description": "A minimal VS Code status bar indicator showing the active CMake configure preset.",
   "version": "0.1.0",
-  "publisher": "myudelson",
+  "publisher": "MichaelYudelson",
   "license": "MIT",
   "repository": {
     "type": "git",
