@@ -1,0 +1,34 @@
+{
+  "name": "cmake-preset-indicator",
+  "displayName": "CMake Preset Indicator",
+  "description": "A minimal VS Code status bar indicator showing the active CMake configure preset.",
+  "version": "0.1.0",
+  "publisher": "Michael Yudelson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myudelson/cmake-preset-indicator.git"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.5.0"
+  },
+  "extensionDependencies": [
+    "ms-vscode.cmake-tools"
+  ]
+}
